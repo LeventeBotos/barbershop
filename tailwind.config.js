@@ -23,12 +23,6 @@ module.exports = {
         ubuntu: "Ubuntu",
       },
     },
-    fontSize: {
-      lg: "18px",
-      "13xl": "32px",
-      base: "16px",
-      "5xl": "24px",
-    },
   },
   corePlugins: {
     preflight: false,
