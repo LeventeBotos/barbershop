@@ -1,9 +1,9 @@
 export const Services = () => {
   return (
-    <div className="flex flex-col text-center">
-      <div className="p-5 text-3xl">Ajánlataink</div>
+    <div className="flex flex-col p-3 text-center md:p-10">
+      <div className="p-5 text-3xl font-bold">Ajánlataink</div>
       <div className="flex flex-col justify-evenly md:flex-row">
-        <div className="w-1/3">
+        <div className="w-2/3 self-center md:w-1/3">
           <div className="card flex flex-col">
             <img
               className="h-1/2 w-full rounded-t-3xl object-cover"
@@ -13,7 +13,7 @@ export const Services = () => {
             <p className="text-[#D3A27B]">1500Ft</p>
           </div>
         </div>
-        <div className="w-1/3">
+        <div className="w-2/3 self-center md:w-1/3">
           <div className="card flex  flex-col">
             <img
               className="h-1/2 w-full rounded-t-3xl object-cover"
@@ -23,7 +23,7 @@ export const Services = () => {
             <p className="text-[#D3A27B]">1500Ft</p>
           </div>
         </div>
-        <div className="w-1/3">
+        <div className="w-2/3 self-center md:w-1/3">
           <div className="card flex  flex-col">
             <img
               className="h-1/2 w-full rounded-t-3xl object-cover"
