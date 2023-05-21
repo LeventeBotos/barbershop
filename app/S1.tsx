@@ -15,6 +15,7 @@ export const S1 = () => {
         </div>
       </div>
       <img
+        alt="Kép a fodrászról"
         className="block h-96 w-full object-cover opacity-60 md:w-1/3"
         src="https://lh3.googleusercontent.com/p/AF1QipN7KCMZtS8mOw-MmXxyIbvPeKObtfawS6dHvwP4=s1360-w1360-h1020"
       />
