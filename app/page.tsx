@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-import { Header } from "./Header";
 import { S1 } from "./S1";
 import { Services } from "./Services";
 import { About } from "./About";

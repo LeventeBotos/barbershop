@@ -6,6 +6,7 @@ export const Services = () => {
         <div className="w-2/3 self-center md:w-1/3">
           <div className="card flex flex-col">
             <img
+              alt="Hajvágás kép"
               className="h-1/2 w-full rounded-t-3xl object-cover"
               src="https://lh3.googleusercontent.com/p/AF1QipOaG5z2k-xDqQ6j8IEZoxVQhmja5JeyNd83IxCM=s1360-w1360-h1020"
             />
@@ -16,6 +17,7 @@ export const Services = () => {
         <div className="w-2/3 self-center md:w-1/3">
           <div className="card flex  flex-col">
             <img
+              alt="Stilizálás kép"
               className="h-1/2 w-full rounded-t-3xl object-cover"
               src="https://lh3.googleusercontent.com/p/AF1QipNsoPrE51B7QTKw_-k4k9YM9LhbIsHSlS2Ql9I2=s1360-w1360-h1020"
             />
@@ -26,6 +28,7 @@ export const Services = () => {
         <div className="w-2/3 self-center md:w-1/3">
           <div className="card flex  flex-col">
             <img
+              alt="Borotválás kép"
               className="h-1/2 w-full rounded-t-3xl object-cover"
               src="https://lh3.googleusercontent.com/p/AF1QipM1MJvEvbM7722YIKCjO37dp2uKTxdvXM1dQIFy=s1360-w1360-h1020"
             />
