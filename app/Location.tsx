@@ -10,7 +10,7 @@ export const Location = () => {
         <p className="text-2xl font-bold">Budapest,</p>
         <p className="text-xl">Teréz krt. 50, 1066</p>
         <a
-          href="https://www.google.com/maps/dir/47.4695033,18.9273132/aborb%C3%A9ly/@47.4895168,18.9112175,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x4741dc72a8d744df:0x2d6405e36dfb18fa!2m2!1d19.0585139!2d47.5083987"
+          href="https://www.google.com/maps/dir//aborb%C3%A9ly/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4741dc72a8d744df:0x2d6405e36dfb18fa?sa=X&ved=2ahUKEwjV-tnqlof_AhUPgP0HHbG8DAMQ9Rd6BAhkEAU"
           target="_blank"
           className="self-center"
         >
