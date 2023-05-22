@@ -15,6 +15,7 @@ module.exports = {
           "400": "rgba(255, 255, 255, 0.07)",
         },
         darkslategray: "#333",
+        primary: "#D3A27B",
         burlywood: "#d3a27b",
         white: "#fff",
       },

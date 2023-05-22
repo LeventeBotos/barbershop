@@ -5,6 +5,9 @@
 /* * {
   border: 1px red solid;
 } */
+* {
+  --primary: #D3A27B;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -30,7 +33,7 @@ body {
 
 button {
  align-items: center;
- background-color: #D3A27B;
+ background-color: var(--primary);
  border: 0;
  border-radius: 8px;
  /* box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px; */
@@ -94,7 +97,7 @@ button:active {
 }
 
 .card:hover {
-  border: 1px solid #D3A27B;
+  border: 1px solid var(--primary);
   transform: scale(1.05);
 }
 

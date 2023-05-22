@@ -6,7 +6,7 @@ export const S1 = () => {
       <div className="flex w-full flex-col justify-evenly text-center text-2xl md:w-2/3">
         <div className="text-4xl font-bold">Barber</div>
         <div>Budapest legjobb fodrásza</div>
-        <div className="text-[#D3A27B]">
+        <div className="text-primary">
           <BsStarFill />
           <BsStarFill />
           <BsStarFill />

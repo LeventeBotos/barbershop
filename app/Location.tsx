@@ -4,6 +4,7 @@ export const Location = () => {
       <iframe
         title="helyzet"
         className=" h-64 w-full rounded-xl md:w-2/3"
+        loading="lazy"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1347.5232031359953!2d19.05738200603322!3d47.508487456532386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc72a8d744df%3A0x2d6405e36dfb18fa!2zYUJvcmLDqWx5!5e0!3m2!1shu!2shu!4v1634060743679!5m2!1shu!2shu"
       />
       <div className="flex w-full flex-col justify-evenly text-center md:w-1/3">
