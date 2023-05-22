@@ -40,31 +40,37 @@ export default function Testimonials() {
   ];
 
   return (
-    <div className="flex h-64 w-full items-center justify-center text-center">
-      <button
-        className="bg-transparent text-4xl text-primary hover:text-white"
-        onClick={previousTestimonial}
-      >
-        <AiOutlineArrowLeft />
-      </button>
-      {testimonials.map((testimonial, index) => (
-        <div
-          key={index}
-          className={`testimonial ${
-            index === activeIndex ? "active" : ""
-          } card flex h-48 flex-col justify-evenly p-5 `}
+    <div className=" flex h-96 w-full flex-col items-center justify-between text-center ">
+      <p className="h-1/4 w-full text-3xl font-bold">Vendégeink</p>
+      <div className="flex h-3/4 flex-col md:flex-row">
+        <button
+          className="bg-transparent text-4xl text-primary hover:text-white"
+          onClick={previousTestimonial}
         >
-          <p>{testimonial.content}</p>
-          <p> - {testimonial.name}</p>
+          <AiOutlineArrowLeft />
+        </button>
+        <div className="card-container">
+          {testimonials.map((testimonial, index) => (
+            <div
+              key={index}
+              className={`testimonial ${
+                index === activeIndex ? "active" : ""
+              } card flex flex-col justify-evenly p-1 md:p-5 `}
+            >
+              <p className="testimonial-content text-xl">
+                {testimonial.content}
+              </p>
+              <p className="testimonial-name">- {testimonial.name}</p>
+            </div>
+          ))}
         </div>
-      ))}
-
-      <button
-        className="bg-transparent text-4xl text-primary hover:text-white"
-        onClick={nextTestimonial}
-      >
-        <AiOutlineArrowRight />
-      </button>
+        <button
+          className="bg-transparent text-4xl text-primary hover:text-white"
+          onClick={nextTestimonial}
+        >
+          <AiOutlineArrowRight />
+        </button>
+      </div>
     </div>
   );
 }
