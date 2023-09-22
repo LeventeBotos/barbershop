@@ -3,7 +3,7 @@ import { Header } from "./Header";
 import "./globals.css";
 
 export const metadata = {
-  title: "aBorbély",
+  title: "Barber",
   description: "Budapest fodrász",
 };
 
