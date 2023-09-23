@@ -89,7 +89,7 @@ button:active {
 .card {
   /* width: 66vw; */
   /* height: 254px; */
-  border-radius: 25px;
+  border-radius: 8px;
   /* background: #e0e0e0;
   box-shadow: 15px 15px 30px #bebebe,
              -15px -15px 30px #ffffff; */
@@ -104,12 +104,10 @@ button:active {
   border: 1px solid var(--primary);
 }
 
-
-
 .card:active {
   transform: scale(0.95) rotateZ(1.7deg);
 }
 
 img {
-  opacity: 65%;
+  opacity: 70%;
 }
